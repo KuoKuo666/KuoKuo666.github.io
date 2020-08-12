@@ -1,0 +1,14 @@
+{
+    "author": "kuokuo",
+    "title": "K-Cocos",
+    "language": "zh-hans",
+    "plugins": [
+        "-sharing",
+        "github"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/KuoKuo666"
+        }
+    }
+}
