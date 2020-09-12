@@ -1,4 +1,4 @@
-<!-- docs/_sidebar.md 侧边栏 -->
+<!-- 侧边栏 -->
 
-* [首页](zh-cn/)
-* [指南](zh-cn/guide)
+* [扩展库介绍](README.md "KCocos扩展库")
+* [API文档](/API.md "API文档")
