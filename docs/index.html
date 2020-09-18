@@ -14,9 +14,34 @@
     window.$docsify = {
       loadSidebar: true,
       subMaxLevel: 2,
-      coverpage: true
+      coverpage: true,
+      onlyCover: true,
+      repo: 'https://github.com/KuoKuo666/k-cocos',
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      topMargin: 90,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '搜索',
+        noData: '无结果',
+        // 搜索标题的最大层级, 1 - 6
+        depth: 2,
+        hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+        // 避免搜索索引冲突
+        // 同一域下的多个网站之间
+        namespace: 'website-1',
+        // 初始化索引时，我们从侧边栏查找第一个路径
+        // 如果它与列表中的前缀匹配，我们将切换到相应的索引
+        pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
+        // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
+        // 匹配到的字符串将被用来识别索引
+        pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+      },
+
     }
   </script>
   <script src="./docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="./docsify-copy-code.js"></script>
 </body>
 </html>

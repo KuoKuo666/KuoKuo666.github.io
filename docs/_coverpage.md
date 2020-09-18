@@ -11,6 +11,6 @@
 - 基于 CocosCreator 2.x 版本
 
 [GitHub](https://github.com/KuoKuo666/k-cocos)
-[Get Started](/README.md)
+[快速开始](/README.md)
 
 ![color](#fff)
