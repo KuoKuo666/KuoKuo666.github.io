@@ -11,45 +11,5 @@
 
 详细使用可以通过左侧目录来查看 API。
 
-xx
-
-x
-
-x
-
-x
-
-x
-
-x
-x
-
-xx
-
-
-x
-
 ## 智能提示
 为了 TypeScript 使用者也能够使用，在 `kcocos.d.ts` 中补充了声明。
-
-x
-x
-
-
-x
-
-x
-
-x
-
-x
-
-x
-
-x
-
-x
-
-x
-
-x
