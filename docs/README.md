@@ -1,4 +1,4 @@
-![](http://cdn.kuokuo666.com/k-cocos/kcocos.jpg)
+![](./res/kcocos.jpg)
 # KCocos扩展库
 
 ## 仓库地址

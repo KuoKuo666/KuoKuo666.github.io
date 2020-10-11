@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](http://cdn.kuokuo666.com/k-cocos/kcocos.jpg)
+![logo](./res/kcocos.jpg)
 
 # Version - 0.1 <small>by KuoKuo</small>
 
