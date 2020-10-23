@@ -7,6 +7,9 @@
 cc.kSpeed(1);
 // 慢动作
 cc.kSpeed(0.1);
+
+// 获取当前速度
+const v = cc.kGetSpeed();
 ```
 
 若也想影响到物理系统需要开启同步刷新：
